@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alloggio Turistico - Benvenuti!</title>
+    <style>
+        /* Stili di base per un layout semplice */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+        
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #000000;
+        }
+        h1 {
+            color: #ffffff;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .highlight {
+            background-color: #f0f8ff;
+            padding: 10px;
+            border-left: 5px solid #4ca3af;
+        }
+        .map {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .map iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+    </style>
+        
+
+        <!--BOX-->
+        <title>Box Informazioni</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 20px;
+            }
+    
+            .box-container {
+                display: flex;
+                justify-content: space-between; /* Spazio uniforme tra i box */
+                gap: 20px; /* Spaziatura tra i box */
+            }
+    
+            .box {
+                flex: 1; /* Tutti i box della stessa dimensione */
+                padding: 20px;
+                background-color: #ffffff;
+                border: 2px solid #ddd;
+                border-radius: 8px;
+                text-align: center;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    
+      <title>Immagine con Testo</title>
+      <style>
+          /* Stile per la sezione con immagine */
+          .image-container {
+              position: relative;
+              width: 100%; /* Larghezza totale del contenitore */
+              max-width: 8000px; /* Larghezza massima per contenitori grandi */
+              margin: 0px auto; /* Centra la sezione orizzontalmente */
+              border-radius: 0px;
+              overflow: hidden;
+          }
+  
+          .image-container img {
+              width: 100%; /* L'immagine si adatta al contenitore */
+              height: auto;
+              display: block;
+          }
+  
+          .image-container .text-overlay {
+              position: absolute;
+              top: 50%; /* Posizione verticale */
+              left: 50%; /* Posizione orizzontale */
+              transform: translate(-50%, -50%); /* Centra il testo */
+              color: white;
+              text-align: center;
+              
+              padding: 20px;
+              border-radius: 10px;
+          }
+  
+          .image-container .text-overlay h2 {
+              margin: 0;
+              font-size: 2em;
+          }
+  
+          .image-container .text-overlay p {
+              margin: 10px 0 0;
+              font-size: 1.2em;
+          }
+      </style>
+  </head>
+  <body>
+      <div class="image-container">
+          <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-21 at 14.58.21.jpeg" alt="Descrizione immagine">
+          <div class="text-overlay">
+              
+              <p>SCOPRI IL NOSTRO COMFORT & RELAX</p>
+          </div>
+      </div>
+  </body>
+  </html>
+</head>
+<body>
+    <p></p>
+
+    <!--box-->
+    
+    <title>Box Responsive</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box-container {
+            display: flex;
+            flex-wrap: wrap; /* Permette di andare a capo sui dispositivi mobili */
+            justify-content: space-between;
+            gap: 10px; /* Spazio tra le box */
+            margin: 20px;
+        }
+
+        .box {
+            flex: 1 1 calc(33.33% - 10px); /* Ogni box occupa 1/3 dello spazio su PC */
+            padding: 20px;
+            text-align: center;
+            background-color: #4ca3af;
+            color: white;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) { 
+            /* Per schermi più piccoli (ad esempio mobile) */
+            .box {
+                flex: 1 1 100%; /* Ogni box occupa il 100% dello spazio */
+            }
+        }
+    </style>
+
+<body>
+
+    <div class="box-container">
+        <div class="box">90 m² di superficie</div>
+        <div class="box">3 stanze da letto</div>
+        <div class="box">Fino a 7 persone</div>
+        <div class="box">Zona largo Preneste</div>
+        <div class="box">Zona commerciale</div>
+        <div class="box">Posizione semi-centrale</div>
+    </div>
+
+</body>
+    
+   
+
+    <div class="container">
+        <!-- Sezione: Collage di Immagini -->
+        <section id="gallery">
+            <h2>Dove soggiornerai</h2>
+            <div class="gallery">
+                <!-- Inserisci qui le tue immagini -->
+                <img src="c:\Users\Utente\OneDrive\img sito\WhatsApp Image 2024-11-22 at 21.11.38 (1).jpeg" alt="Immagine 1">" alt="Immagine 1">
+                <img src="C:\Users\Utente\OneDrive\mio-sito\WhatsApp Image 2024-11-22 at 21.11.38.jpeg" alt="Immagine 1">
+                <img src="immagine1.jpeg" alt="Immagine 2">
+                <img src="Comfort-relax-antica-Roma/WhatsApp Image 2024-11-18 at 21.52.26.jpeg" alt="Immagine 3">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 21.52.25 (1).jpeg" alt="Immagine 4">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 21.52.27.jpeg" alt="Immagine 5">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 21.52.26 (1).jpeg" alt="Immagine 6">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 21.52.25 (2).jpeg" alt="Immagine 7">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 21.56.03.jpeg" alt="Immagine 8">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 21.52.26 (2).jpeg" alt="Immagine 9">
+                <img src="img_sito/WhatsApp_Image_2024-11-22_at_21.11.37_(1).jpeg" alt="Immagine 10">
+            
+            </div>
+        </section>
+
+
+        <!-- Sezione: Elenco dei Servizi -->
+        <section id="servizi">
+            <h2>I nostri servizi</h2>
+            <ul>
+                <li>Vasca idromassaggio</li>
+                <li>Macchinetta del caffè</li>
+                <li>Wi-Fi gratuito</li>
+                <li>Tapis roulant</li>
+                <li>Aria condizionata in 3 stanze</li>
+                <li>TV a schermo piatto</li>
+                <li>Luci led rosse nel bagno</li>
+                <li>2 Balconi con tavolino e sedie</li>
+                <li>Animali ammessi</li>
+                <li>Parcheggio gratuito in zona</li>
+                <li>Personale multilingue</li>
+                <li>Asciugacapelli</li>
+                <li>Prodotti da bagno in omaggio</li>
+            </ul>
+            <p class="highlight">Prenota ora e goditi un soggiorno indimenticabile nel nostra dimora turistica</p>
+        </section>
+        <hr>
+
+        <!-- Sezione: Come prenotare -->
+        <section id="prenotare">
+            <h2>Come prenotare?</h2>
+            <p>È facile! Contattaci direttamente tramite:</p>
+            <ul>
+                <li>Telefono: +39 3382271697</li>
+                <li>Email: girgisadil@hotmail.it</li>
+                <li>WhatsApp: +39 3382271697</li>
+            </ul>
+            <p class="highlight">Prenota il tuo soggiorno in 5 minuti.</p>
+        </section>
+        <hr>
+
+        <!-- Sezione: Dove ci troviamo -->
+        <section id="dove-ci-troviamo">
+            <h2>Dove ci troviamo</h2>
+            <p>Ci troviamo a largo Preneste nel cuore della città, vicino alle principali attrazioni.</p>
+            <div class="map">
+                <!-- Sostituisci il link sotto con l'embed della tua posizione di Google Maps -->
+                <iframe 
+                    src="https://maps.app.goo.gl/upx1izcQKUGxTHEb6" 
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        <section id="servizi">
+            <h2>Attrazioni principali</h2>
+            <ul>
+                <li>4km Collosseo</li>
+                <li>3km San Giovanni</li>
+                <li>5km Fontana di Trevi</li>
+                <li>2km Porta Maggiore</li>
+                <li>4km Stazione Termini</li>
+                <li>2km Stazione Tiburtina</li>
+                <li>3/4km Università La Sapienza</li>
+            </ul>
+            <p class="highlight">Zona ben collegata da metro, tram e autobus</p>
+        </section>
+        <hr>
+        
+
+
+        <!--Pagina secondaria-->
+        <h2>Confronta i prezzi e le disponibilità</h2>
+        <p>⬇️Clicca qui per controllare i prezzi e le disponibilità⬇️</p>
+        <a href="index2.html" class="button-link">Controlla i prezzi</a>
+        <p class="highlight">Controlla i prezzi e prenota subito</p>
+        <hr>
+
+
+         <!-- Sezione: Collage di Immagini -->
+         <section id="gallery">
+            <h2>Tutte le foto</h2>
+            <div class="gallery">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.20.50.jpeg" alt="Immagine 1">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.20.50 (1).jpeg" alt="Immagine 2">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.20.50 (2).jpeg" alt="Immagine 3">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.20.50 (3).jpeg" alt="Immagine 4">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.20.50 (3).jpeg" alt="Immagine 5">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.20.51.jpeg" alt="Immagine 6">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.20.51 (1).jpeg" alt="Immagine 7">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.20.51 (2).jpeg" alt="Immagine 8">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.20.51 (3).jpeg" alt="Immagine 9">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.20.52.jpeg" alt="Immagine 10">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.20.52 (1).jpeg" alt="Immagine 11">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.20.52 (2).jpeg" alt="Immagine 12">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.20.52 (3).jpeg" alt="Immagine 13">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.20.52 (4).jpeg" alt="Immagine 14">
+                <img src="c:\Users\Utente\Downloads\WhatsApp Image 2024-11-18 at 22.21.29.jpeg" alt="Immagine 15">
+            </div>
+    </div>
+    <!-- Footer -->
+<footer style="background-color: #4ca3af; color: white; padding: 20px; text-align: center; margin-top: 40px;">
+    <div class="footer-content">
+        <p>&copy; 2024 Comfort & relax antica Roma - Tutti i diritti riservati</p>
+        <p>Email: <a href="mailto:girgis.adil@hotmail.it" style="color: #fff; text-decoration: underline;">girgis.adil@hotmail.it</a></p>
+        <p>Telefono: +39 338 227 697</p>
+        <p>Seguici sui social media:</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" style="margin: 0 10px;">Facebook</a> |
+            <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px;">Instagram</a> |
+            <a href="https://www.twitter.com" target="_blank" style="margin: 0 10px;">Twitter</a>
+        </div>
+        <p style="margin-top: 15px; font-size: 0.9em;">
+            <a href="#privacy-policy" style="color: #fff; text-decoration: underline;">Privacy Policy</a> |
+            <a href="#terms-of-service" style="color: #fff; text-decoration: underline;">Termini e Condizioni</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>
